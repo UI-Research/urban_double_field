@@ -1,6 +1,6 @@
 {
   "name": "ui-research/urban_double_field",
-  "type": "drupal-module",
+  "type": "drupal-custom-module",
   "description": "Custom Drupal field type with title and wysiwyg sub fields.",
   "minimum-stability": "dev",
   "license": "GPL-2.0-or-later",
