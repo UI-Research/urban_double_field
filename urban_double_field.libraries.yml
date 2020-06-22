@@ -1,0 +1,4 @@
+urban_double_field_text_plus_wysiwyg:
+  css:
+    component:
+      css/urban-double-field-text-plus-wysiwyg-widget.css: {}

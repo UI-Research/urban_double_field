@@ -1,0 +1,11 @@
+# Default value.
+field.value.urban_double_field_text_plus_wysiwyg:
+  type: mapping
+  label: Default value
+  mapping:
+    title:
+      type: string
+      label: Title
+    text:
+      type: text
+      label: Text

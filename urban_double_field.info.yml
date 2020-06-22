@@ -1,0 +1,6 @@
+name: 'Urban Double Field'
+type: module
+description: 'Customized Double field with title and filtered text subfields.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Urban'

@@ -1,0 +1,15 @@
+{
+  "name": "ui-research/urban_double_field",
+  "description": "Custom Drupal field type with title and wysiwyg sub fields.",
+  "minimum-stability": "dev",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Mark Sutton",
+      "email": "mark@p51i.com"
+    }
+  ],
+  "require": {
+    "drupal/core": "^8 || ^9"
+  }
+}
