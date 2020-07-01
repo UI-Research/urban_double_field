@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Theme override for urban double field.
+ *
+ *
+ * Available variables:
+ * - title: The first subfield.
+ * - text: The second subfield.
+ *
+ * @see template_preprocess_urban_double_field()
+ */
+#}
+<div class="urban-double-field">
+  {% if title %}
+    <div class="urban-double-field__title font-weight-bold text-uppercase">{{ title }}</div>
+  {% endif %}
+
+  {% if text %}
+    <div class="urban-double-field__text">{{ text | raw }}</div>
+  {% endif %}
+</div>
