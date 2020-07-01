@@ -24,21 +24,15 @@ class TextPlusWysiwygDefaultFormatter extends FormatterBase {
 
     foreach ($items as $delta => $item) {
 
-      if ($item->title) {
-        $element[$delta]['title'] = [
-          '#type' => 'item',
-          '#title' => $this->t('Title'),
-          '#markup' => $item->title,
-        ];
-      }
+      $title = $item->title;
+      $text = $item->text;
 
-      if ($item->text) {
-        $element[$delta]['text'] = [
-          '#type' => 'item',
-          '#title' => $this->t('Text'),
-          '#markup' => $item->text,
-        ];
-      }
+      $element[$delta] = [
+        '#type'  => 'item',
+        '#title' => $title,
+        '#text'  => $text,
+        '#theme' => 'urban_double_field',
+      ];
 
     }
 

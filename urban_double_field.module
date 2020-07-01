@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * @file
+ * Defines 'urban_double_field_text_plus_wysiwyg_default' formatter.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function urban_double_field_theme() {
+  return array(
+    'urban_double_field' => array(
+      'variables' => array(
+        'title' => NULL,
+        'text' => NULL,
+        'attributes' => [],
+        ),
+      'template' => 'urban-double-field',
+    ),
+  );
+}
