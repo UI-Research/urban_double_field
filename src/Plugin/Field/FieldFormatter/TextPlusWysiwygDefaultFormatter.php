@@ -28,7 +28,6 @@ class TextPlusWysiwygDefaultFormatter extends FormatterBase {
       $text = $item->text;
 
       $element[$delta] = [
-        '#type'  => 'item',
         '#title' => $title,
         '#text'  => $text,
         '#theme' => 'urban_double_field',
